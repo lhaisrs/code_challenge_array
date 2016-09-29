@@ -12,7 +12,7 @@
 
 /*********** Crie um array chamado amigos.*************/
 
-// código aqui
+var amigos = [];
 
 
 
@@ -20,6 +20,7 @@
 /*********** Adicione o primeiro nome do amigo no array na posiçāo 0 *************/
 
 // código aqui
+amigos[0] = "Lhaís";
 
 
 
@@ -30,7 +31,9 @@
 
 
 // código aqui
-
+amigos.push("Karina");
+amigos.push("Veridiana");
+amigos.push("Simone");
 
 
 
@@ -38,6 +41,7 @@
 /***********  Verifique o tamanho do array. *************/
 
 // código aqui
+console.log(amigos.length);
 
 
 
@@ -46,4 +50,5 @@
 /***********  Remova o último item do array. *************/
 
 // código aqui
+amigos.pop();
 
